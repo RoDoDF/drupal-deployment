@@ -1,0 +1,14 @@
+uuid: 4da630a3-35f1-47db-8532-edf2c1d01942
+name: 'Drupal formation (modif via GIT)'
+mail: romain.dortier@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

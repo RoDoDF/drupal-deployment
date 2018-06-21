@@ -1,0 +1,21 @@
+uuid: 78d3ceb7-68e4-45d1-8214-fc4cd2a8cd26
+langcode: en
+status: true
+dependencies: {  }
+id: dev
+label: dev
+folder: config/dev
+module:
+  admin_toolbar_tools: 0
+  devel: 0
+  devel_generate: 0
+  field_ui: 0
+  menu_ui: 0
+  views_ui: 0
+theme: {  }
+blacklist:
+  - core.entity_view_display.annonce.annonce.default
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

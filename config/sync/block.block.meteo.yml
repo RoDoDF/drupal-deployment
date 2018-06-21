@@ -1,0 +1,25 @@
+uuid: dca10931-dcde-4fc4-beef-70aaf6c94a67
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:dfc2a904-690a-42ef-a985-c05b3190d0d1'
+  module:
+    - block_content
+  theme:
+    - zurb_tp
+id: meteo
+theme: zurb_tp
+region: sidebar_second
+weight: -1
+provider: null
+plugin: 'block_content:dfc2a904-690a-42ef-a985-c05b3190d0d1'
+settings:
+  id: 'block_content:dfc2a904-690a-42ef-a985-c05b3190d0d1'
+  label: Météo
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
