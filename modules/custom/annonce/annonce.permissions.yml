@@ -1,0 +1,28 @@
+add annonce entities:
+  title: 'Create new annonce entities'
+
+administer annonce entities:
+  title: 'Administer annonce entities'
+  description: 'Allow to access the administration form to configure annonce entities.'
+  restrict access: true
+
+delete any annonce entities:
+  title: 'Delete any annonce entities'
+
+edit any annonce entities:
+  title: 'Edit any annonce entities'
+
+delete own annonce entities:
+  title: 'Delete own annonce entities'
+
+edit own annonce entities:
+  title: 'Edit own annonce entities'
+
+access annonce overview:
+  title: 'Access the Annonce overview page'
+
+view published annonce entities:
+  title: 'View published Annonce entities'
+
+view unpublished annonce entities:
+  title: 'View unpublished Annonce entities'

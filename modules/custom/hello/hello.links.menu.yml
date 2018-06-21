@@ -1,0 +1,20 @@
+hello.hello:
+  title: 'Hello!'
+  description: 'Hello page'
+  route_name: hello.hello
+  menu_name: main
+  weight: 1
+
+hello.access:
+  title: 'Hello Access'
+  description: 'Hello Access'
+  route_name: hello.access
+  menu_name: main
+  weight: 2
+
+hello.admin_form:
+  title: 'Block color'
+  description: 'Block color.'
+  route_name: hello.admin_form
+  menu_name: admin
+  parent: system.themes_page

@@ -1,0 +1,7 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/zurb_tp.css: {}
+  js:
+    js/zurb_tp.js: {}

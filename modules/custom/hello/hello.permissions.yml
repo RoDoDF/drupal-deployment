@@ -1,0 +1,7 @@
+access hello:
+  title: Access Hello front pages
+  description: Allow user to access Hello front pages.
+
+administer hello:
+  title: Administer Hello
+  description: Allow user to access and administer Hello admin pages.

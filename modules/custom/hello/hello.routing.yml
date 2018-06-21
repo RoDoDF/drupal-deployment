@@ -1,0 +1,98 @@
+hello.hello:
+  path: '/hello/{param}'
+  defaults:
+    _title: 'Hello'
+    _controller: '\Drupal\hello\Controller\HelloController::content'
+    param: 'no parameter'
+  requirements:
+    _access: 'TRUE'
+
+hello.hello.node_list:
+  path: '/hello/node-list/{nodetype}'
+  defaults:
+    _title: 'Node list'
+    _controller: '\Drupal\hello\Controller\HelloNodeListController::content'
+    nodetype: null
+  requirements:
+    _access: 'TRUE'
+
+hello.json:
+  path: '/hello-json'
+  defaults:
+    _controller: '\Drupal\hello\Controller\HelloJsonController::content'
+  requirements:
+    _access: 'TRUE'
+
+hello.node_history:
+  path: '/node/{node}/history'
+  defaults:
+    _title: 'Node update history'
+    _controller: '\Drupal\hello\Controller\HelloNodeHistoryController::content'
+  requirements:
+    _access: 'TRUE'
+
+hello.calculator:
+  path: '/calculator'
+  defaults:
+    _title: 'Calculator'
+    _form: '\Drupal\hello\Form\HelloCalculator'
+  requirements:
+    _permission: 'access hello'
+
+hello.calculator.result:
+  path: '/calculator-result/{result}'
+  defaults:
+    _title: 'Result'
+    _controller: '\Drupal\hello\Controller\HelloCalculatorResult::content'
+    result: ''
+  requirements:
+    _permission: 'access hello'
+
+hello.admin_form:
+  path: '/admin/appearance/block-color'
+  defaults:
+    _title: 'Block Color'
+    _form: '\Drupal\hello\Form\HelloAdminForm'
+  requirements:
+    _permission: 'administer hello'
+
+hello.access:
+  path: '/hello-access'
+  defaults:
+    _title: 'Hello access'
+    _controller: '\Drupal\hello\Controller\HelloAccessController::content'
+  requirements:
+    _access_hello: '48'
+
+hello.geo_form:
+  path: '/geo/form'
+  defaults:
+    _form: '\Drupal\hello\Form\RegionSelector'
+    _title: 'Commune'
+  requirements:
+    _permission: 'access content'
+
+hello.geo_controller_commune:
+  path: '/commune/{code_commune}'
+  defaults:
+    _controller: '\Drupal\hello\Controller\GeoController::commune'
+    _title_callback: '\Drupal\hello\Controller\GeoController::commune_title'
+    code_commune: null
+  requirements:
+    _permission: 'access content'
+
+hello.geo_controller_cities_per_region:
+  path: '/cities_per_region/{code_region}'
+  defaults:
+    _controller: '\Drupal\hello\Controller\GeoController::cities_per_region'
+    _title: 'Commune par région'
+  requirements:
+    _permission: 'access content'
+
+hello.geo_controller_cities:
+  path: '/cities'
+  defaults:
+    _controller: '\Drupal\hello\Controller\GeoController::cities'
+    _title: 'Villes'
+  requirements:
+    _permission: 'access content'

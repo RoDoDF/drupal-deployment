@@ -1,0 +1,17 @@
+performance_tests.cache_render_explorer:
+  title: 'Cache render explorer'
+  route_name: performance_tests.cache_render_explorer
+  menu_name: main
+  weight: 1
+
+performance_tests.cache_page_explorer:
+  title: 'Cache page explorer'
+  route_name: performance_tests.cache_page_explorer
+  menu_name: main
+  weight: 2
+
+performance_tests.cache_dynamic_page_cache:
+  title: 'Cache dynamic page cache'
+  route_name: performance_tests.cache_dynamic_page_cache
+  menu_name: main
+  weight: 3

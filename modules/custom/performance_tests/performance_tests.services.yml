@@ -1,0 +1,4 @@
+services:
+  lazybuilded_content:
+    class: Drupal\performance_tests\LazyBuildedContent
+    arguments: ['@logger.factory']

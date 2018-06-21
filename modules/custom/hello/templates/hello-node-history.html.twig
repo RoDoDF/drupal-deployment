@@ -1,0 +1,21 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a node update count message.
+ *
+ * Available variables:
+ * - node: The node object.
+ * - count: The node update count.
+ *
+ * @see template_preprocess_hello_node_history()
+ *
+ * @ingroup themeable
+ */
+#}
+<div>
+  <span>
+    {% trans %}
+      The node {{ node.label }} has been updated {{ count }} time(s).
+    {% endtrans %}
+  </span>
+</div>
