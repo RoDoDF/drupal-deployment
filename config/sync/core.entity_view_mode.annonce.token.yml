@@ -1,0 +1,10 @@
+uuid: 95189a18-373a-4f08-a751-22b4a4f086f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - annonce
+id: annonce.token
+label: Token
+targetEntityType: annonce
+cache: true

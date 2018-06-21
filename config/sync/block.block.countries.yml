@@ -1,0 +1,25 @@
+uuid: 94102cd3-a175-49eb-990a-2c23509f35a7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:11fc1275-592c-464a-9842-15661351bf1c'
+  module:
+    - block_content
+  theme:
+    - zurb_tp
+id: countries
+theme: zurb_tp
+region: sidebar_first
+weight: -2
+provider: null
+plugin: 'block_content:11fc1275-592c-464a-9842-15661351bf1c'
+settings:
+  id: 'block_content:11fc1275-592c-464a-9842-15661351bf1c'
+  label: Countries
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
